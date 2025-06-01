@@ -63,7 +63,4 @@ class Momentum(Model):
         df_out = df_pivot.rolling(window=self.lookback, min_periods=self.lookback).sum()
         
         return df_out
-        
-    def param_str(self):
-        return "freq={}, lookback={}".format(self.freq, self.lookback)
-    
+ 

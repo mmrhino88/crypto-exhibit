@@ -33,10 +33,6 @@ class Model(ABC):
     def ts_eval(self, start_date, end_date, data):
         """Evaludate model on a time series"""
         pass
-        
-    @abstractproperty
-    def param_str(self):
-        return 'This is base param_str'
     
         
     
