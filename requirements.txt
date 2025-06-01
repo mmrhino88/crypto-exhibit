@@ -1,0 +1,11 @@
+# Core
+python-dotenv>=1.0.0
+pandas>=1.4.4
+numpy>=1.23.0
+
+# KuCoin API client
+kucoin-python>=1.0.0
+
+# Streaming data
+websockets>=11.0.0
+asyncio>=3.4.3
